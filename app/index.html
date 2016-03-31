@@ -1,21 +1,23 @@
 <!DOCTYPE html>
+<!-- link to angular module w/ ng-app -->
 <html lang="en" ng-app="makeEditableApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Make Editable Demo</title>
+	<!-- styles -->
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="make-editable.css">
 </head>
 <body>	
 	<div class="container">
-		<img src="">
 		<h1 class="header">"Make Editable" Demo</h1>
 		<hr>
+		<!-- placing make-editable in the div tag links to makeEditable Angular directive in app.js -->
 		<div make-editable>
 			<p>This paragraph can be edited! Go, ahead...try it! Click the 'Edit' button below!</p>
 		</div>
 		<div make-editable>
-			<h1>So can this H1!!!</h1>
+			<h2>So can this H1!!!</h2>
 		</div>
 	</div>
 	<footer>Built by <a href="http://www.bpatrickcox.com">B. Patrick Cox, Jr.</a></footer>

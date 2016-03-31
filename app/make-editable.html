@@ -1,10 +1,14 @@
+<!-- makeEditable Angular directive uses this template in between the <make-editable html tags. ng-transclude makes sure
+that the content of the element gets 'transcluded' into the rendered directive. When the app loads, ng-init sets editableStatus to false. ng-class toggles the 'editable' css class on and off based on whether or not editableStatus is true/false, which changes when buttons are clicked -->
 <div class="editable-content" 
 	ng-init="editableStatus = false" 
 	ng-transclude 
 	contenteditable="{{ editableStatus }}"
-	ng-class = "{ editable: editableStatus }" >
+	ng-class = "{ editable: editableStatus }">
 </div>
 <div class="editable-controls">
+	<!-- when 'Edit Text' button clicked, editableStatus set to true, turning on editable CSS class. ng-show gets set to false, which hides the button and shoes the 'Save Changes' button instead -->
 	<button class="btn btn-primary btn-lg" ng-click="editableStatus = true" ng-show="!editableStatus">Edit Text</button>
+	<!-- when 'Save Changes' button clicked, the opposite of everything that happened when 'Edit Text' is clicked, happens. -->
 	<button class="btn btn-primary btn-lg" ng-click="editableStatus = false" ng-show="editableStatus">Save Changes</button>
 </div>
