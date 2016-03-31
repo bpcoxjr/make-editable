@@ -3,23 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Make Editable Demo</title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="make-editable.css">
 </head>
 <body>	
 	<div class="container">
-		<h1>Make Editable Demo</h1>
+		<img src="">
+		<h1 class="header">"Make Editable" Demo</h1>
+		<hr>
 		<div make-editable>
-			<p>This paragraph can be edited!!!</p>
+			<p>This paragraph can be edited! Go, ahead...try it! Click the 'Edit' button!</p>
 		</div>
 		<div make-editable>
 			<h1>So can this H1!!!</h1>
 		</div>
 	</div>
+	<footer>Built by <a href="http://www.bpatrickcox.com">B. Patrick Cox, Jr.</a></footer>
 	<!-- scripts -->
-	<script src="bower_components/angular/angular.min.js"></script>	
+	<script src="../bower_components/angular/angular.min.js"></script>	
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

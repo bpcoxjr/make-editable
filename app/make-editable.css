@@ -1,8 +1,53 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.header {
+	font-size: 5em;
+	padding-bottom: .25em;
+}
+
+hr {
+	border-color: #4d4d4d;
+	height: 2px;
+}
+
 .container {
-	max-width: 500px;
+	max-width: 750px;
 	text-align: center;
+}
+
+.make-editable {
+	padding-bottom: 1em;
 }
 
 .editable {
 	border: 5px solid red;
+	border-radius: 10px;
+	color: red;
+	margin-top: 2em;
+}
+
+.editable p {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	font-style: italic;
+}
+
+.editable h1 {
+	font-style: italic;
+}
+
+button {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 2em;
 }
