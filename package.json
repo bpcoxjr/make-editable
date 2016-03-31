@@ -1,0 +1,22 @@
+{
+  "name": "make-editable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpcoxjr/make-editable.git"
+  },
+  "author": "B Patrick Cox Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpcoxjr/make-editable/issues"
+  },
+  "homepage": "https://github.com/bpcoxjr/make-editable#readme",
+  "devDependencies": {
+    "bower": "^1.7.7"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "make-editable",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "B Patrick Cox Jr"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/bpcoxjr/make-editable",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "animate.css": "^3.5.1",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2",
+    "animate.css": "^3.5.1"
+  }
+}
