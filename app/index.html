@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="makeEditableApp">
 <head>
 	<meta charset="UTF-8">
-	<title>Account Management Demo</title>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>	
-    <script src="app.js"></script>
-	<link rel="stylesheet" href="main.css">
+	<title>Make Editable Demo</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="make-editable.css">
 </head>
-<body>
-	<div make-editable>
-		<p>This paragraph can be edited!!!</p>
+<body>	
+	<div class="container">
+		<h1>Make Editable Demo</h1>
+		<div make-editable>
+			<p>This paragraph can be edited!!!</p>
+		</div>
+		<div make-editable>
+			<h1>So can this H1!!!</h1>
+		</div>
 	</div>
-	<div make-editable>
-		<h1>So can this H1!!!</h1>
-	</div>
+	<!-- scripts -->
+	<script src="bower_components/angular/angular.min.js"></script>	
+    <script src="app.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
